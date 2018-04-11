@@ -5,7 +5,7 @@ This project creates and tests shape classes in C++.
 C++ header and source files that define and implement several shape classes. The code is tested by running the test.cpp source file.
 
 ### Required Libraries and Dependencies
-Visual Studio is required to run this project. 
+No required Libraries or external dependencies to run this project. 
 
 ### Contents
 - "Shape.hpp" header file contains Shape base class definition
