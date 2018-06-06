@@ -34,7 +34,8 @@ public:
 	Point operator * (double factor) const;  // Scale the coordinates. 
 	Point operator + (const Point & p) const; // Add coordinates. 
 	bool operator == (const Point & p) const; // Equally compare operator. 
-	Point& operator = (const Point & source); // Assignment operator. 
+	Point& operator = (const Point & source); // Overloading assignment operator (for the compiler to be able to
+						  //assign two objects of user-defined type Point.
 	Point& operator *= (double factor);      // Scale the coordinates & assign.
 
 private:
